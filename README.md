@@ -15,16 +15,16 @@ InventoryManagement/
 ├──bin/   
 ├── lib/                            
 ├── src/
-│   ├── dao/                         # DAO classes for DB access
+│   ├── dao/                         
 │   │   └── InventoryDAO.java
-│   ├── db/                          # DB connection utilities
+│   ├── db/                          
 │   │   └── DatabaseConnection.java
-│   ├── gui/                         # JavaFX UI classes
+│   ├── gui/                        
 │   │   └── InventoryFX.java
-│   ├── model/                       # POJOs or model classes
+│   ├── model/                      
 │   │   └── Item.java
-│   └── Main.java                    # Launches JavaFX app
-└──  README.md                        # Project details
+│   └── Main.java                    
+└──  README.md                        
 
 - `src`: the folder to maintain sources
 - `lib`: the folder to maintain dependencies
