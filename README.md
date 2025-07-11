@@ -9,17 +9,17 @@ A Java Swing + MySQL-based Inventory App to manage items.
 ## Folder Structure
 InventoryManagement/
 ├──bin/   
-├── lib/                            
+├── lib/ 
 ├── src/
-│   ├── dao/                         
-│   │   └── InventoryDAO.java
-│   ├── db/                          
-│   │   └── DatabaseConnection.java
-│   ├── gui/                        
-│   │   └── InventoryFX.java
-│   ├── model/                      
-│   │   └── Item.java
-│   └── Main.java                    
+    ├── dao/                         
+       └── InventoryDAO.java
+    ├── db/                          
+       └── DatabaseConnection.java
+    ├── gui/                        
+        └── InventoryFX.java
+    ├── model/                      
+        └── Item.java
+    └── Main.java                    
 └──  README.md                       
 paste your JDBC executable jar file in lib.
 
