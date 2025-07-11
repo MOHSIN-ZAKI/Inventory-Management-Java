@@ -1,16 +1,12 @@
 
 # Inventory Management System
-
 A Java Swing + MySQL-based Inventory App to manage items.
-
 ## Features
 - Add, update, delete items
 - Search by ID or Name
 - MySQL database integration
 - Styled Java Swing GUI
-
 ## Folder Structure
-
 InventoryManagement/
 ├──bin/   
 ├── lib/                            
@@ -24,16 +20,10 @@ InventoryManagement/
 │   ├── model/                      
 │   │   └── Item.java
 │   └── Main.java                    
-└──  README.md                        
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-    paste your JDBC executable jar file in lib.
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+└──  README.md                       
+paste your JDBC executable jar file in lib.
 
 ## Create table in MySQL 
-
 CREATE TABLE IF NOT EXISTS items (
     id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(100),
