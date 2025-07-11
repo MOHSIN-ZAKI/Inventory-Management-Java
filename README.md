@@ -1,29 +1,32 @@
+# 📦 Inventory Management System
 
-# Inventory Management System
-A Java Swing + MySQL-based Inventory App to manage items.
-## Features
-- Add, update, delete items
-- Search by ID or Name
-- MySQL database integration
-- Styled Java Swing GUI
-## Folder Structure
-InventoryManagement/
-├──bin/   
-├── lib/ 
-├── src/
-    ├── dao/                         
-       └── InventoryDAO.java
-    ├── db/                          
-       └── DatabaseConnection.java
-    ├── gui/                        
-        └── InventoryFX.java
-    ├── model/                      
-        └── Item.java
-    └── Main.java                    
-└──  README.md                       
-paste your JDBC executable jar file in lib.
+A Java Swing + MySQL-based desktop application to manage inventory items with a user-friendly GUI.
 
-## Create table in MySQL 
+---
+
+## ✨ Features
+
+- 🔄 Add, update, and delete items
+- 🔍 Search by **ID** or **Name**
+- 🛢️ Connected to **MySQL database**
+- 🎨 Styled GUI using Java Swing
+- 📁 Modular architecture (DAO + Model + GUI)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Java (Swing + JDBC)**
+- **MySQL**
+- **JDBC MySQL Connector (Paste the `.jar` file inside the `lib/` folder)**
+
+---
+
+## 🧱 MySQL Table Structure
+
+Make sure the following table exists in your MySQL database:
+
+```sql
 CREATE TABLE IF NOT EXISTS items (
     id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(100),
@@ -31,4 +34,3 @@ CREATE TABLE IF NOT EXISTS items (
     quantity INT,
     price DECIMAL(10,2)
 );
-
